@@ -44,7 +44,38 @@ const myFunction = function(){
    //  console.log(" Hello Prabhat");
 }
 
-console.log(typeof outsideTemp);
+// console.log(typeof outsideTemp);
+
+
+
+// Two types of Memory
+
+//1. stack(primitive), 2. Heap(Non-Primitive)
+
+let myName = " Prabhatranjan Parida";
+
+let anotherName = myName;
+
+anotherName = " Sanjay";
+
+// console.log(myName);
+// console.log(anotherName);
+
+let userOne = {
+    Name: "Prabhatranjan Parida",
+    EmpId: 23,
+    Age: 34,
+    EmailId: "sanayp.gs@gmail.com",
+};
+
+let userTwo = userOne;
+
+userTwo.EmailId = "paridaprabhatranjan@gmail.com";
+
+console.log(userOne.EmailId);
+console.log(userTwo.EmailId);
+
+
 
 
 
