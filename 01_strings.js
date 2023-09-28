@@ -52,6 +52,10 @@ const stri = 'The quick brown fox jumps over the lazy dog.';
 const words = stri.split(' ');
 console.log(words[4]);
 console.log(words);
+const words2 = stri.bold(2, 7);
+console.log(stri.bold(1, 23));
+
+
 
 
 
