@@ -23,7 +23,9 @@ const bigNumber = 22323121123232734444332n;
 // Arrays, Objects, Functions
 
 // Arrays
+
 const heros = ['Srikrushna','Ramchandra', 'Arjun','Shiva', 'Ganesh'];
+
 // console.table(heros);
 
 // Objects
