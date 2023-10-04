@@ -24,15 +24,22 @@ const realArray = newArray.flat(Infinity);
 
 // console.log(realArray);
 
-console.log(Array.isArray('Prabhat'));
-console.log(Array.from('Prabhat'));
-console.log(Array.from({name:'Prabhat'})); // return empty
+// console.log(Array.isArray('Prabhat'));
+// console.log(Array.from('Prabhat'));
+// console.log(Array.from({name:'Prabhat'})); // return empty
 
 let score = 125;
 let score1 = 23;
 let score2 = 67;
 
-console.log(Array.of(score,score2,score2));
+// console.log(Array.of(score,score2,score2));
+
+
+// fill Methods
+
+Heros.fill(Dc_Heros,1,3);
+console.log(Heros);
+
 
 
 
