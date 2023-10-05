@@ -42,8 +42,8 @@ userName.greetingTwo = function(){
     console.log(`Hello UserName, ${this.name}`);
 }
 
-console.log(userName.greeting());
-console.log(userName.greetingTwo());
+ console.log(userName.greeting());
+  console.log(userName.greetingTwo());
 
 
 
