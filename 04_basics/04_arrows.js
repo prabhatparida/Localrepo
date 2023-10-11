@@ -57,7 +57,7 @@ console.log(addTwo(56,54));
 
 const myArray = [34,56,78,9,43];
 
-myArray.forEach(() =>());
+myArray.forEach(() =>{});
 
 
 
